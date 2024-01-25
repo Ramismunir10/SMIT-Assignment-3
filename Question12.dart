@@ -3,6 +3,6 @@ the elements in reverse order. The original list should remain unchanged.*/
 
 void main() {
   List<String> students = ['Mario', 'John', 'Martion', 'Williamson', 'Virat'];
-  var names=students.reversed;
+  var names = students.reversed;
   print(names.toList());
 }
