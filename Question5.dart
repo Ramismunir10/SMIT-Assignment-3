@@ -2,16 +2,12 @@
 where to find all keys that have length 4.*/
 void main(){
     Map<String, dynamic> namesPhoneKeys = {
-    'name1': 'Carlos',
-    'phone1': '03312357225',
-    'name2': 'Lynn',
-    'phone2': '03242563975',
-    'name3': 'Virat',
-    'phone3': '03452498100',
+    '0345': 'Telenor',
+    '03000': 'Mobilink',
+    '0333': 'Ufone',
+    '031': 'Zong',
   };
-    Iterable<String> Length4 = namesPhoneKeys.keys.where((key) => key.startsWith('name') && namesPhoneKeys[key].length == 4);
 
-  print('Names with length 4: $Length4');
-
-
+  print("Original Map: $namesPhoneKeys");
+  print("Keys with length 4: ${namesPhoneKeys.keys.where((key) => key.length==4)}");
 }

@@ -13,6 +13,7 @@ void main() {
     'Renault',
     'Ferrari',
     'Honda',
+    'Renault',
   ];
   print(cars.toSet().toList());
 }

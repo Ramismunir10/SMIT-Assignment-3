@@ -9,12 +9,9 @@ void main() {
     'Saturday',
     'Sunday'
   ];
-  days.remove('Sunday');
-  days.remove('Saturday');
-  days.remove('Friday');
-  days.remove('Thursday');
-  days.remove('Wednesday');
-  days.remove('Tuesday');
-  days.remove('Monday');
   print(days);
+  for (var i = days.length - 1; i >= 0; i--) {
+    days.remove(days[i]);
+    print(days);
+  }
 }

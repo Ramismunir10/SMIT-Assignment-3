@@ -2,7 +2,7 @@
 from the list.*/
 
 void main() {
-  List<int> integrs = [1, 5, 9, 4, 3, 8, 6, 2, 7];
-  integrs.sort();
-  print('The maximum values in the list is: ${integrs[integrs.length - 1]}');
+  List<int> integers = [1, 5, 9, 4, 3, 8, 6, 2, 7];
+  integers.sort();
+  print('The maximum values in the list is: ${integers[integers.length - 1]}');
 }
